@@ -4,7 +4,6 @@
 
 ### Back-end
 
-- [ ] Schéma SQL cohérent avec les 4 règles métier
 - [ ] Jeu de données de test inséré (2 entreprises, 3 annonces, 3 personnes, quelques candidatures)
 - [ ] 3 requêtes SQL fonctionnelles
 - [ ] 4 routes REST conformes (nommage des ressources, bons verbes)
@@ -22,3 +21,5 @@
 ## 🔄 In progress
 
 ## ✅ Done
+
+- [x] Schéma SQL cohérent avec les 4 règles métier
