@@ -27,13 +27,14 @@ export default function Login() {
     return (
         <div className={style.div}>
             <form onSubmit={handleLogin} className={style.div_identifier}>
+                <label htmlFor="">Login</label>
                 <input
                     type="email"
                     placeholder="Email"
                     value={email}
                     onChange={(event) => setEmail(event.target.value)}
                 />
-
+                <label htmlFor="">Password</label>
                 <input
                     type="password"
                     placeholder="Mot de passe"
