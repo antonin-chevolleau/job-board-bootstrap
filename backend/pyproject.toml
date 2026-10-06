@@ -1,0 +1,6 @@
+[tool.ruff]
+target-version = "py39"
+
+[tool.ruff.lint]
+# E = PEP 8 errors, F = bugs such as unused imports, I = import order
+select = ["E", "F", "I"]

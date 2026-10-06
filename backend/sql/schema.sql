@@ -30,7 +30,7 @@ CREATE TABLE applications (
   person_id INT NOT NULL,
   ad_id INT NOT NULL,
   message TEXT NOT NULL,
-  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   FOREIGN KEY (person_id) REFERENCES people(id),
   FOREIGN KEY (ad_id) REFERENCES ads(id)
 );
