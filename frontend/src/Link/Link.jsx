@@ -1,5 +1,7 @@
+import { Link as RouterLink } from 'react-router-dom'
+
 import style from "./Link.module.css"
 
 export function Link({ href, label}) {
-  return <a href={href} className={style.a}>{label}</a>
+  return <RouterLink to={href} className={style.a}>{label}</RouterLink>
 }
