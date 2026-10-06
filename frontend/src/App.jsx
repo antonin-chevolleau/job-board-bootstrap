@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Article from './Articles/Articles.jsx'
 import Header from './Header/Header.jsx'
 import Login from './Login/Login.jsx'
+import Create from './Create/Create.jsx'
 
 import './index.css'
 
@@ -22,6 +23,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/create" element={<Create />} />
       </Routes>
     </>
   )
