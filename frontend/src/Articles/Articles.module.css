@@ -1,0 +1,22 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+.nom_article {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.button {
+    padding: 10px;
+    width: 100px;
+
+}
+.div_button {
+    display: flex;
+    justify-content: flex-end;
+}
