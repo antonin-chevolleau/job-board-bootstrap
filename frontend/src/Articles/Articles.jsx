@@ -6,7 +6,7 @@ export default function Article({ Articlename, Description, Dateannonce }) {
         <div className={style.article}>
             <p className={style.nom_article}>{Articlename}</p>
             <p>{Description}</p>
-            <p>{Dateannonce}</p>
+            <p>Date de création : {Dateannonce}</p>
             <div className={style.div_button}>
                 <button className={style.button}>Voir détails</button>
             </div>
