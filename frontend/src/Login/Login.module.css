@@ -29,10 +29,7 @@
 }
 
 .no_compte {
-    margin-top: 20px;
-    background-color: rgb(100, 100, 222);
-    color: azure;
-    padding: 15px;
-    border-radius: 5px;
-    text-align: center;
+    margin-top: 15px;
+    text-align: end;
+    font-size: 13px;
 }
